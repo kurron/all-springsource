@@ -60,6 +60,18 @@ dependencies {
     compile "org.springframework.integration:spring-integration-xmpp:${springIntegrationVersion}"
     compile "org.springframework.integration:spring-integration-xml:${springIntegrationVersion}"
 
+    compile "org.springframework.security:spring-security-acl:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-aspects:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-cas:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-config:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-core:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-crypto:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-ldap:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-openid:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-remoting:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-taglibs:${springSecurityVersion}"
+    compile "org.springframework.security:spring-security-web:${springSecurityVersion}"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -117,6 +129,17 @@ dependencies {
     sourceArchives "org.springframework.integration:spring-integration-xmpp:${springIntegrationVersion}:sources"
     sourceArchives "org.springframework.integration:spring-integration-xml:${springIntegrationVersion}:sources"
 
+    sourceArchives "org.springframework.security:spring-security-acl:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-aspects:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-cas:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-config:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-core:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-crypto:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-ldap:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-openid:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-remoting:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-taglibs:${springSecurityVersion}:sources"
+    sourceArchives "org.springframework.security:spring-security-web:${springSecurityVersion}:sources"
 
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
