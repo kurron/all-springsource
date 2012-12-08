@@ -8,13 +8,12 @@ repositories {
     maven {
         url "http://repo.springsource.org/libs-release"
     }
-
 /*
     maven {
-        url "http://repo.springframework.org/milestone"
+        url "http://repo.springsource.org/libs-milestone"
     }
     maven {
-        url "http://repo.springframework.org/snapshot"
+        url "http://repo.springsource.org/libs-snapshot"
     }
 */
 }
@@ -95,6 +94,8 @@ dependencies {
 
     compile "org.springframework.data:spring-data-gemfire:${springDataGemFireVersion}"
 
+    //compile "org.springframework.data:spring-data-rest-webmvc:${springDataRestMvcVersion}"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -174,6 +175,8 @@ dependencies {
     //sourceArchives "org.springframework.data:spring-data-hadoop:${springDataApacheHadoopVersion}:sources"
 
     sourceArchives "org.springframework.data:spring-data-gemfire:${springDataGemFireVersion}:sources"
+
+    //sourceArchives "org.springframework.data:spring-data-rest-webmvc:${springDataRestMvcVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
