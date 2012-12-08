@@ -102,6 +102,8 @@ dependencies {
 
     compile "org.springframework.data:spring-data-neo4j:${springDataNeo4jVersion}"
 
+    compile "org.springframework.ws:spring-ws:${springWebServicesVersion}:all"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -189,6 +191,8 @@ dependencies {
     sourceArchives "org.springframework.data:spring-data-mongodb:${springDataMongoDbVersion}:sources"
 
     sourceArchives "org.springframework.data:spring-data-neo4j:${springDataNeo4jVersion}:sources"
+
+    sourceArchives "org.springframework.ws:spring-ws:${springWebServicesVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
