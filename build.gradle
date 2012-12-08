@@ -117,6 +117,12 @@ dependencies {
     compile "org.springframework.social:spring-social-twitter:${springSocialVersion}"
     compile "org.springframework.social:spring-social-web:${springSocialVersion}"
 
+    compile "org.springframework.webflow:spring-webflow:${springWebFlowVersion}"
+    compile "org.springframework.webflow:spring-binding:${springWebFlowVersion}"
+    compile "org.springframework.webflow:spring-js:${springWebFlowVersion}"
+    compile "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}"
+    compile "org.springframework.webflow:spring-faces:${springWebFlowVersion}"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -224,6 +230,12 @@ dependencies {
     sourceArchives "org.springframework.social:spring-social-twitter:${springSocialVersion}:sources"
     sourceArchives "org.springframework.social:spring-social-web:${springSocialVersion}:sources"
     sourceArchives "org.springframework.social:spring-social-test:${springSocialVersion}:sources"
+
+    sourceArchives "org.springframework.webflow:spring-webflow:${springWebFlowVersion}:sources"
+    sourceArchives "org.springframework.webflow:spring-binding:${springWebFlowVersion}:sources"
+    sourceArchives "org.springframework.webflow:spring-js:${springWebFlowVersion}:sources"
+    sourceArchives "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}:sources"
+    sourceArchives "org.springframework.webflow:spring-faces:${springWebFlowVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
