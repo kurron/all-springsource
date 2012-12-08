@@ -5,6 +5,18 @@ defaultTasks 'clean', 'collectJars', 'build'
 
 repositories {
     mavenCentral()
+    maven {
+        url "http://repo.springsource.org/libs-release"
+    }
+
+/*
+    maven {
+        url "http://repo.springframework.org/milestone"
+    }
+    maven {
+        url "http://repo.springframework.org/snapshot"
+    }
+*/
 }
 
 configurations {
@@ -78,6 +90,10 @@ dependencies {
 
     compile "org.springframework.data:spring-data-oracle:${springDataJdbcExtensionsVersion}"
     compile "org.springframework.data:spring-data-jdbc-core:${springDataJdbcExtensionsVersion}"
+
+    //compile "org.springframework.data:spring-data-hadoop:${springDataApacheHadoopVersion}"
+
+    compile "org.springframework.data:spring-data-gemfire:${springDataGemFireVersion}"
 
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
@@ -154,6 +170,10 @@ dependencies {
 
     sourceArchives "org.springframework.data:spring-data-oracle:${springDataJdbcExtensionsVersion}:sources"
     sourceArchives "org.springframework.data:spring-data-jdbc-core:${springDataJdbcExtensionsVersion}:sources"
+
+    //sourceArchives "org.springframework.data:spring-data-hadoop:${springDataApacheHadoopVersion}:sources"
+
+    sourceArchives "org.springframework.data:spring-data-gemfire:${springDataGemFireVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
