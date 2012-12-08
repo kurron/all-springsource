@@ -105,12 +105,15 @@ dependencies {
     compile "org.springframework.ws:spring-ws:${springWebServicesVersion}:all"
 
     compile "org.springframework.batch:spring-batch-core:${springBatchVersion}"
+    compile "org.springframework.batch:spring-batch-infrastructure:${springBatchVersion}"
 
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
 
     testCompile "org.springframework:spring-test:${springFrameworkVersion}"
+    testCompile "org.springframework.batch:spring-batch-test:${springBatchVersion}"
+
     testCompile "junit:junit:${junitVersion}"
 
     runtime "org.slf4j:jcl-over-slf4j:${slf4jVersion}"
@@ -197,6 +200,8 @@ dependencies {
     sourceArchives "org.springframework.ws:spring-ws:${springWebServicesVersion}:sources"
 
     sourceArchives "org.springframework.batch:spring-batch-core:${springBatchVersion}:sources"
+    sourceArchives "org.springframework.batch:spring-batch-infrastructure:${springBatchVersion}:sources"
+    sourceArchives "org.springframework.batch:spring-batch-test:${springBatchVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
