@@ -123,6 +123,8 @@ dependencies {
     compile "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}"
     compile "org.springframework.webflow:spring-faces:${springWebFlowVersion}"
 
+    //compile "org.springframework.flex:spring-flex-core:${springFlexVersion}"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -236,6 +238,8 @@ dependencies {
     sourceArchives "org.springframework.webflow:spring-js:${springWebFlowVersion}:sources"
     sourceArchives "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}:sources"
     sourceArchives "org.springframework.webflow:spring-faces:${springWebFlowVersion}:sources"
+
+    //sourceArchives "org.springframework.flex:spring-flex-core:${springFlexVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
