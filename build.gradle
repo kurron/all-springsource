@@ -76,6 +76,9 @@ dependencies {
 
     compile "org.springframework.data:spring-data-jpa:${springDataJpaVersion}"
 
+    compile "org.springframework.data:spring-data-oracle:${springDataJdbcExtensionsVersion}"
+    compile "org.springframework.data:spring-data-jdbc-core:${springDataJdbcExtensionsVersion}"
+
     compile "org.slf4j:slf4j-api:${slf4jVersion}"
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
@@ -148,6 +151,9 @@ dependencies {
     sourceArchives "org.springframework.mobile:spring-mobile-device:${springMobileVersion}:sources"
 
     sourceArchives "org.springframework.data:spring-data-jpa:${springDataJpaVersion}:sources"
+
+    sourceArchives "org.springframework.data:spring-data-oracle:${springDataJdbcExtensionsVersion}:sources"
+    sourceArchives "org.springframework.data:spring-data-jdbc-core:${springDataJdbcExtensionsVersion}:sources"
 
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
