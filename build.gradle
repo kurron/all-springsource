@@ -128,6 +128,10 @@ dependencies {
     compile "org.slf4j:slf4j-ext:${slf4jVersion}"
     compile "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}"
 
+    // Hibernate is popular so I'll add it in as well
+    compile "org.hibernate:hibernate-core:${hibernateVersion}"
+    compile "org.hibernate:hibernate-entitymanager:${hibernateVersion}"
+
     testCompile "org.springframework:spring-test:${springFrameworkVersion}"
     testCompile "org.springframework.batch:spring-batch-test:${springBatchVersion}"
     testCompile "org.springframework.social:spring-social-test:${springSocialVersion}"
@@ -249,6 +253,8 @@ dependencies {
     sourceArchives "ch.qos.logback:logback-core:${logbackVersion}:sources"
     sourceArchives "cglib:cglib-nodep:${cglibVersion}:sources"
     sourceArchives "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}:sources"
+    sourceArchives "org.hibernate:hibernate-core:${hibernateVersion}:sources"
+    sourceArchives "org.hibernate:hibernate-entitymanager:${hibernateVersion}:sources"
 
     // using the milestone repository causes a crash when we try and get the JPA sources
     //sourceArchives "org.springframework.data:spring-data-jpa:${springDataJpaVersion}:sources"
