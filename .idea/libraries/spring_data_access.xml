@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="spring-data-access">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-orm-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-jdbc-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-oxm-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-jms-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-tx-3.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-oxm-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-jdbc-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-jms-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-orm-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-tx-3.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

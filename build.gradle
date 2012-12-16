@@ -137,6 +137,7 @@ dependencies {
     testCompile "org.springframework.social:spring-social-test:${springSocialVersion}"
 
     testCompile "junit:junit:${junitVersion}"
+    testCompile "org.hamcrest:hamcrest-all:${hamcrestVersion}"
 
     runtime "org.slf4j:jcl-over-slf4j:${slf4jVersion}"
     runtime "org.slf4j:jul-to-slf4j:${slf4jVersion}"
@@ -255,6 +256,7 @@ dependencies {
     sourceArchives "org.codehaus.jackson:jackson-mapper-asl:${jacksonVersion}:sources"
     sourceArchives "org.hibernate:hibernate-core:${hibernateVersion}:sources"
     sourceArchives "org.hibernate:hibernate-entitymanager:${hibernateVersion}:sources"
+    sourceArchives "org.hamcrest:hamcrest-all:${hamcrestVersion}:sources"
 
     // using the milestone repository causes a crash when we try and get the JPA sources
     //sourceArchives "org.springframework.data:spring-data-jpa:${springDataJpaVersion}:sources"

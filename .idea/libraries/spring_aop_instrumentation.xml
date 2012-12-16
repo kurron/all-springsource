@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="spring-aop-instrumentation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-aop-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-aspects-3.2.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-instrument-3.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-aop-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-aspects-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/dependencies/spring-instrument-3.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
