@@ -1,6 +1,7 @@
 package org.kurron.spring.idiom
 
 import org.junit.Test
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.test.context.ContextConfiguration
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests
@@ -14,8 +15,12 @@ class CanonicalIntegrationTest extends AbstractJUnit4SpringContextTests {
     @Value( "#{example.qb}" )
     private String message
 
+    @Autowired
+    private String mvp
+
     @Test
     public void given_when_then() {
-        println message
+        println 'message = ' + message
+        println 'mvp = ' + mvp
     }
 }
