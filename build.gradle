@@ -1,7 +1,8 @@
 apply plugin: 'groovy'
 apply plugin: 'war'
+apply plugin: 'project-report'
 
-defaultTasks 'clean', 'collectJars', 'build'
+defaultTasks 'clean', 'collectJars', 'projectReport', 'build'
 
 repositories {
     mavenCentral()
@@ -18,8 +19,7 @@ repositories {
 
 configurations {
     all*.exclude group: 'commons-logging'
-    all*.exclude group: 'log4j'
-    all*.exclude group: 'slf4j'
+    all*.exclude module: 'log4j'
 
     sourceArchives {
         description = 'Artifact that contains the source code of the dependencies.'
