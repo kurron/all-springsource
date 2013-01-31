@@ -138,7 +138,7 @@ dependencies {
     testCompile "org.springframework.batch:spring-batch-test:${springBatchVersion}"
     testCompile "org.springframework.social:spring-social-test:${springSocialVersion}"
 
-    testCompile "junit:junit:${junitVersion}"
+    testCompile "junit:junit-dep:${junitVersion}"
     testCompile "org.hamcrest:hamcrest-all:${hamcrestVersion}"
 
     runtime "org.slf4j:jcl-over-slf4j:${slf4jVersion}"
@@ -250,7 +250,7 @@ dependencies {
     sourceArchives "org.slf4j:slf4j-api:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:slf4j-ext:${slf4jVersion}:sources"
     sourceArchives "org.springframework:spring-test:${springFrameworkVersion}:sources"
-    sourceArchives "junit:junit:${junitVersion}:sources"
+    sourceArchives "junit:junit-dep:${junitVersion}:sources"
     sourceArchives "org.slf4j:jcl-over-slf4j:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:jul-to-slf4j:${slf4jVersion}:sources"
     sourceArchives "org.slf4j:log4j-over-slf4j:${slf4jVersion}:sources"
