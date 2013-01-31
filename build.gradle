@@ -121,7 +121,7 @@ dependencies {
     compile "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}"
     compile "org.springframework.webflow:spring-faces:${springWebFlowVersion}"
 
-    compile "org.springframework.hateoas:spring-hateoas:${springHateosVersion}"
+    compile "org.springframework.hateoas:spring-hateoas:${sprinHateoasVersion}"
 
     // there is no public repository that holds the Adobe stuff
     //compile "org.springframework.flex:spring-flex-core:${springFlexVersion}"
@@ -242,7 +242,7 @@ dependencies {
     sourceArchives "org.springframework.webflow:spring-js-resources:${springWebFlowVersion}:sources"
     sourceArchives "org.springframework.webflow:spring-faces:${springWebFlowVersion}:sources"
 
-    sourceArchives "org.springframework.hateoas:spring-hateoas:${springHateosVersion}:sources"
+    sourceArchives "org.springframework.hateoas:spring-hateoas:${sprinHateoasVersion}:sources"
 
     // there is no public repository that holds the Adobe stuff
     //sourceArchives "org.springframework.flex:spring-flex-core:${springFlexVersion}:sources"
